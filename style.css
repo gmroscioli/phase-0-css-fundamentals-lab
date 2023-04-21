@@ -3,3 +3,67 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+}
+
+img {
+  margin: auto;
+  display: block;
+}
+
+.centered {
+  align-items: centered;
+  align-content: center;
+
+}
+
+a {
+  padding: 10px;
+  background-color: beige;
+}
+
+figcaption {
+  font-size: smaller;
+  text-align: center;
+}
+
+p {
+  width: 800px;
+  text-align: center;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 2px;
+  margin-bottom: 2em;
+}
+
+div {
+  float: left;
+  background-color: white;
+  text-align: center;
+  align-content: center;
+  margin: auto;
+  max-width: 25%;
+  font-size: small;
+}
+
+div > p {
+  text-align: center;
+  background-color: white;
+  margin: auto;
+  align-content: center;
+  max-width: 85%;
+}
+
+p > a {
+  background-color: white;
+  max-width: 85%;
+  line-height: 10px;
+  display: block;
+  }
+
+  footer {
+    margin-inline-end: auto;
+    justify-content: space-between;
+  }
